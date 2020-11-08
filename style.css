@@ -1,0 +1,331 @@
+.wrap{
+width: 1200px;
+margin:0 auto;
+margin-top: 50px;
+}
+
+.logo{
+    text-align: left;
+}
+
+.header-right{
+    float: right;
+    margin: 30px 0px;
+}
+
+.header-right a{
+    font-size: 21px;
+    margin: 50px 50px 50px 0px;
+}
+
+.mainvisual{
+    position: relative;
+    width: 1200px;
+}
+
+.mainvisual img {
+    width: 100%;
+}
+
+.mainvisual-sentense{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* フォントの大きさが変わると位置がずれるけどそれを補正する */
+    text-align: center;
+    
+}
+.mainvisual h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mainvisual p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+    
+.about{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.about h2{
+    color: #ffd61a;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.about h3{
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 60px;
+}
+
+.about p{
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.sub-visual {
+    display: inline-block;
+}
+
+.sub-visual img{
+    float: left;
+    width: 300px;
+}
+
+.course{
+    margin: 100px 0px;
+    font-weight: 18px;    
+    text-align: center;
+}
+
+.course h1{
+    padding-bottom: 30px;
+}
+
+.sub-visual2 {
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+/* .sub-visual2-img{
+    width: 600px;
+} */
+
+.sub-visual2 img{
+    width: 600px;
+    float: left;
+}
+
+.sub-visual2-sentense{
+    margin: 120px 0px;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+
+.sub-visual2-sentense h1{
+font-weight: bold;
+font-size: 16px;
+padding-bottom: 40px;
+}
+
+.sub-visual2-sentense p{
+    font-size: 13px;
+    }
+
+.sub-visual2-sentense{
+    margin: 120px 0px;
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.sub-visual3 {
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.sub-visual3-sentense{
+    margin: 120px 50px 120px 150px;
+    width: calc(1200px-600px);
+    padding-right: 40px;
+    float: left;
+}
+
+.sub-visual3-sentense h1{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.sub-visual3-sentense p{
+    font-size: 13px;
+}
+
+.sub-visual3 img{
+    width: 600px;
+    float: right;
+}
+
+.news{
+    text-align: center;
+
+}
+.news h1{
+    font-weight: bold;
+    color: #ffd61a;
+    font-size: 16px;
+    margin: 30px 0px;
+    }
+    
+ .news p{
+    font-size: 13px;
+    margin-bottom: 30px;
+
+}
+
+
+.newslist{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px,0px 24px 0px;
+}
+
+.newslist-item{
+    width: 300px;
+}
+
+.bottum{
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.bottum a{
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 0px 10px;
+    color: white;
+    background-color: #ffd61a;
+}
+
+.access{
+    background-color: #fafafa;
+}
+
+.access-text{
+    padding: 60px 0px;
+    text-align: center;
+}
+.access-text h1{
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+    margin: 30px 0px;
+    }
+    
+ .access-text p{
+    font-size: 13px;
+}
+
+.adress{
+    font-size: 16px;
+    margin-top: 30px;
+    background-color: #fafafa;
+    flex
+}
+
+
+.contact{
+    text-align: center;
+    margin: 60px 0px 140px 0px;
+}
+
+.contact-text{
+    padding-bottom: 70px;
+}
+
+.contact-text h1{
+font-weight: bold;
+font-size: 24px;
+padding-bottom: 30px;
+}
+
+.contact-text p{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.contact-text h2{
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.formbox dt{
+    display: flex;
+    width: 240px;
+}
+
+.cb{
+    display: flex;
+}
+
+.formbox dd{
+    display: inline-block;
+    width: 400px;
+    border-right-style:hidden; 
+}
+
+.formbox{
+    margin: 0 auto;
+    display: table;
+}
+
+.formbox dl{
+    display: flex;
+    width: 100%;
+}
+
+.formbox dt,dd{
+    border: solid 1px #bfbfbf;
+    border-left-style:hidden;
+}
+
+input[type="text"] {
+      width: 300px;  
+      height: 38px;
+}
+
+.formbox textarea{
+    width: 300px;  
+    height: 38px;
+}
+
+.send-button{
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 0px 10px;
+    color: white;
+    background-color: #ffd61a;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.footer{
+    width: 1200px;
+    background-color: #707070;
+    color: #707070;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.adress{
+    text-align: center;
+}
+
+.col-1{
+    display: inline-block;
+    width: 500px;
+}
+
+.col-2{
+    display: inline-block;
+    width: 500px;
+}
